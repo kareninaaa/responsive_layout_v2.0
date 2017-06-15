@@ -1,0 +1,229 @@
+/********* Header ***********/
+
+h1 {
+  margin: 0;
+  color: hotpink;
+  font-size: 40px;
+  padding: 20px;
+  font-family: 'Vibur', sans-serif;
+}
+
+.nav li {
+  list-style: none; 
+  display: block;
+  background: lightpink;
+  margin: 5px;
+  padding: 15px;
+  color: #404040;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.main-header {
+  overflow: hidden;
+}
+
+.nav {
+  padding: 0;
+}
+
+.main-header, .about {
+  background: #f2f2f2;
+}
+
+
+/********* Body **********/
+
+.about img {
+  max-width: 75%;
+}
+
+body {
+  max-width: 1040px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Oxygen', sans-serif;
+}
+
+.portfolio img {
+  max-width: 100%;
+  padding: 25px 0;
+}
+
+.portfolio li {
+  list-style: none;
+  padding: 0 5%;
+  margin: 0;
+}
+
+.about {
+  font-size: 24px;
+  color: gray;
+  line-height: 1.5;
+  padding: 5% 2.5%;
+}
+
+h2 {
+  padding: 30px;
+  color: gray;
+  
+}
+
+h3 {
+  font-size: 24px;
+  color: #595959;
+}
+
+.portfolio p {
+  font-size: 22px;
+  color: #737373;
+  line-height: 1.4;
+}
+
+#skills p {
+  color: hotpink;
+  font-size: 50px;
+
+}
+
+h4 {
+  font-weight: bold;
+  font-size: 22px;
+  color: #444;
+}
+
+.contact p {
+  font-size: 24px;
+  line-height: 1.5;
+  color: #999;
+}
+
+.contact-info p {
+  color: gray;
+  font-size: 26px;
+}
+
+.contact {
+  padding: 35px 10px;
+}
+
+
+/********** Footer **********/
+
+footer {
+  padding-top: 25px;
+  border-top: solid;
+  border-top-color: lightgrey;
+}
+
+footer p {
+  float: left;
+  margin: 0;
+  padding: 10px;
+  color: dimgray;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+footer a {
+  float: right;
+  padding: 10px;
+  color: dimgray; 
+  font-size: 20px;
+  font-weight: bold;
+}
+
+footer, .contact, .contact-info {
+  background: #f2f2f2;
+  overflow: hidden;
+}
+
+
+a {
+  text-decoration: none;
+  color: dimgrey;
+}
+
+  a:hover {
+    color: hotpink;
+  }
+
+.desktop-footer {
+  display: none;
+}
+
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/******** Media Queries ***********/
+
+@media screen and (min-width: 768px) {
+  
+  
+  .nav li {
+    display: inline-block;
+    padding: 15px 70px;
+}
+  
+  .paragraph {
+    float: left;
+    max-width: 55%;
+  }
+  
+  .about img {
+    float: right;
+    max-width: 40%;
+  }
+
+  .portfolio li {
+    width: 40%;
+    float: left;
+  }
+  
+  .clearfix:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+  
+  .mobile-footer {
+    display: none;
+  }
+  
+  .desktop-footer ul {
+    list-style: none;
+  } 
+  
+  .desktop-footer {
+  display: block;
+}
+
+}
+  
+@media screen and (min-width: 1024px) {
+  
+  .nav li {
+    float: right;
+    background: #f2f2f2;
+    padding: 5px 10px;
+  }
+  
+  h1 {
+    float: left
+  }
+  
+  
+  .portfolio li {
+    width: 30.83%;
+    padding: 1.25%;
+  }
+
+  
+}
+  
+  
+  
+  
